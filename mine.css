@@ -1,0 +1,32 @@
+body {
+    background-color: darkkhaki;
+    font-weight: 500;
+}
+
+
+
+nav {
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid gray;
+
+}
+
+nav>a {
+    text-align: center;
+    text-decoration: none;
+    padding: 6px;
+    margin: auto;
+
+}
+
+nav a:hover {
+    background-color: chocolate;
+    transition: .4s;
+    border: 20px;
+
+}
+
+.header {}
