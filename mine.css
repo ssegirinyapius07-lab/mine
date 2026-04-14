@@ -6,19 +6,40 @@ body {
 
 
 nav {
-    display: flex;
-    font-size: 20px;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     border: 3px solid gray;
+    border-radius: 12px;
 
 }
 
-nav>a {
+.intro {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.intro a {
+    color: red;
+    font-size: 32px;
+    padding: 10px;
+
+}
+
+h1 {
+    text-align: center;
+    color: aqua;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav a {
     text-align: center;
     text-decoration: none;
     padding: 6px;
     margin: auto;
+    color: solid red;
 
 }
 
@@ -26,7 +47,24 @@ nav a:hover {
     background-color: chocolate;
     transition: .4s;
     border: 20px;
+    border-radius: 10px;
 
+}
+
+p a {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 20x;
+    text-decoration: none;
+}
+
+p a:hover {
+    background-color: aquamarine;
+    transition: .5s;
+    text-align: center;
 }
 
 .header {}
